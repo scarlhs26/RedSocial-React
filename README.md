@@ -29,3 +29,5 @@ npm run dev.
 ```
 De esta forma, la aplicación estará disponible en el navegador a través de un servidor local.
 
+## 🖼 interfaz y experiencia de usuario
+- `![Feed del usuario:](./imagenes/Feed.png)`
