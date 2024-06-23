@@ -25,7 +25,7 @@ npm i
 ```
 Luego, para inicializar la aplicación, también desde la terminal, ejecuta el siguiente comando:
 ```bash
-npm run dev.
+npm run dev
 ```
 De esta forma, la aplicación estará disponible en el navegador a través de un servidor local.
 
