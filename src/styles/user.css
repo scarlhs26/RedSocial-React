@@ -1,0 +1,25 @@
+.seccion-user{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    gap: 20px;
+
+}
+.imge-pag-user{
+    width: 170px;
+    background-color: #E9EEF5;
+    padding: 15px;
+    border-radius: 50%;
+}
+.title-pag-user{
+    margin: 0;
+    font-size: 35px;
+}
+.p-pag-user{
+    margin: 0;
+    font-weight: 400;
+    text-shadow: none;
+    font-size: 18px;
+}

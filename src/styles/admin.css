@@ -1,0 +1,36 @@
+.seccion-admin {
+  padding: 50px;
+}
+.li-admin {
+  text-decoration: none;
+  list-style: none;
+}
+.nombre-admin {
+  font-size: 25px;
+}
+.boton-editar,
+.boton-guardar,
+.boton-eliminar {
+  border-radius: 0;
+  border: none;
+  font-size: 15px;
+  font-weight: 700;
+}
+.boton-editar:hover,
+.boton-guardar:hover,
+.boton-eliminar:hover {
+  letter-spacing: 0;
+  transition: none;
+  font-size: 15px;
+  font-weight: 700;
+}
+.boton-editar {
+  background-color: rgb(146, 141, 141);
+}
+.boton-guardar {
+  background-color: rgb(115, 214, 115);
+}
+.boton-eliminar{
+    background-color: red;
+
+}

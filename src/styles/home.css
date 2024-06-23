@@ -1,0 +1,211 @@
+:root {
+  --color-primario: #353535;
+}
+body {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  background: linear-gradient(
+    30deg,
+    rgba(32, 71, 244, 0.3),
+    rgba(35, 120, 239, 0.3),
+    rgba(254, 204, 50, 0.3),
+    rgba(128, 50, 254, 0.3),
+    rgba(143, 0, 255, 0.1)
+  );
+  transition: background-color 0.3s ease;
+}
+/*------------------------ SECCION SUPERIOR---------------*/
+
+.superior {
+  width: auto;
+  height: 80px;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #e9eef5;
+  transition: background-color 0.3s ease;
+}
+.superior h1 {
+  font-size: 35px;
+}
+.superior2 {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 50px;
+}
+/*------------------------ SECCION PRINCIPAL---------------*/
+
+.seccion-principal {
+  display: flex;
+  width: 100%;
+  height: 91vh;
+  transition: background-color 0.3s ease;
+}
+.User {
+  width: 23.5vw;
+  border-right: 1px solid #e9eef5;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.image-user {
+  width: 50px;
+}
+/*------------------------ SECCION PRINCIPAL IZQUIERDA---------------*/
+
+.lateral-izquierda-opciones {
+  height: auto;
+  width: 18vw;
+  background-color: #ffffff;
+  transition: background-color 0.3s ease;
+}
+.Menu-lateral {
+  display: flex;
+  flex-direction: column;
+}
+.li-navIzquerdo {
+  border-bottom: 1px solid #e9eef5;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  padding: 0 15%;
+  gap: 20px;
+  font-size: 17px;
+}
+.li-navIzquerdo:hover {
+  cursor: pointer;
+  background-color: #eff2f5;
+  color: #2378ef;
+  font-weight: 500;
+}
+.li-press {
+  color: #2378ef;
+  background-color: #eff2f5;
+  font-weight: 500;
+}
+/*------------------------ SECCION PRINCIPAL CENTRAL---------------*/
+
+.central-opciones {
+  height: auto;
+  width: 64vw;
+}
+.seccion-general {
+  margin: 30px;
+  width: 95%;
+  height: 780px;
+  background-color: #ffffff;
+  transition: background-color 0.3s ease;
+}
+/*------------------------ SECCION PRINCIPA DERECHA---------------*/
+
+.lateral-derecha-opciones {
+  margin: 30px 20px 30px 0;
+  height: auto;
+  width: 16vw;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  transition: background-color 0.3s ease;
+}
+.rol-user {
+  margin: 0;
+  text-shadow: none;
+  font-weight: 300;
+  font-size: 12px;
+}
+.usuarios-registrados {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 100%;
+  background-color: #e9eef5;
+  padding: 10px 10px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+.user-regis-div {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+/*---------------------------MODO OSCURO----------------------------------------*/
+body.modo-oscuro {
+  background-color: var(--color-primario);
+  color: #ffffff;
+}
+.modo-oscuro .lateral-izquierda-opciones {
+  background-color: var(--color-primario);
+  color: #ffffff;
+}
+.modo-oscuro .li-navIzquerdo {
+  color: #ffffff;
+  border-bottom: 1px solid #777777;
+}
+.modo-oscuro .li-press {
+  background-color: #525151;
+}
+.modo-oscuro .li-navIzquerdo:hover {
+  background-color: #525151;
+  color: #ffffff;
+}
+.modo-oscuro .superior {
+  background-color: var(--color-primario);
+  color: #ffffff;
+  border-bottom: 1px solid #777777;
+}
+.modo-oscuro .User {
+  border-right: 1px solid #777777;
+}
+.modo-oscuro .seccion-general {
+  background-color: var(--color-primario);
+  color: #ffffff;
+}
+.modo-oscuro .imge-pag-user {
+  background-color: #525151;
+}
+.modo-oscuro .lateral-derecha-opciones {
+  background-color: var(--color-primario);
+  color: #ffffff;
+}
+.modo-oscuro .usuarios-registrados {
+  background-color: #525151;
+}
+.modo-oscuro form {
+  background-color: var(--color-primario);
+}
+.modo-oscuro .p-pag-user,
+.modo-oscuro .rol-user,
+.modo-oscuro .p-pag-game,
+.modo-oscuro .empate {
+  color: #ffffff;
+}
+.modo-oscuro .nombre-admin {
+  color: #ffffff;
+}
+.modo-oscuro .texto-p-home {
+  color: #ffffff;
+}
+/*-----------------------HOME------------*/
+.texto-home {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.texto-home h1{
+  font-size: 50px;
+}
+
+.texto-p-home {
+  margin-top: 50px;
+  text-align: center;
+}
