@@ -29,6 +29,17 @@ npm run dev.
 ```
 De esta forma, la aplicación estará disponible en el navegador a través de un servidor local.
 
-## 🖼 interfaz y experiencia de usuario
+## 🖼 interfaz y experiencia de usuario:
+- **Registro:**
+![Feed del usuario](imagenes/registro.PNG)
+- **Login:**
+![Feed del usuario](imagenes/login.PNG)
+- **Feed del Usuario:**
 ![Feed del usuario](imagenes/Feed.PNG)
+- **Modo oscuro:**
+![Feed del usuario](imagenes/oscuro.PNG)
+- **Perfil del usuario:**
+![Feed del usuario](imagenes/perfil.PNG)
+- **Juego Piedra, Papel o tijeras:**
+![Feed del usuario](imagenes/game.PNG)
 
